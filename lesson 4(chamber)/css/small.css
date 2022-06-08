@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+}
+
+/*header, main, footer {
+    max-width: 700px;
+    margin: 0 auto; 
+}*/
+
+header {
+    margin: 1rem auto;
+    border: 1px solid #ddd;
+    padding: .5rem;
+    background-color: #505050;
+    display: flex;
+    /*grid-template-columns: 200px 1fr;*/
+    align-items: center;
+    font-family: 'Tapestry', cursive;
+}
+
+header img{
+    width: 90px;
+    height: auto;
+}
+
+h1{color:#FFFFFF;}
+
+header div{
+    background-color: #808080;
+}
+
+nav ul{
+    display: flex;
+    margin-right: 82px;
+    margin-left: 0px ;
+    color:#FFFFFF;
+}
+
+nav ul a{
+    display: flex;
+    margin-top: -30px;
+    margin-right: 82px;
+    margin-left: 0px ;
+    color:#FFFFFF;}
+
+div.social{ 
+    width: 00px;
+    display: flex;}
+
+nav div a img{
+    width: 30px;
+    display:flex;
+    margin-top: -30px;
+}
+
+div.date{margin-top:120px;
+    border: solid #ddd;
+    padding: .5rem;
+    background-color: #F0F0F0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{display:grid;
+    grid-template-columns: 1fr 1frf 1fr;
+    margin: 40px;
+    
+}
+
+main div.hero{
+    width: 640px;
+    height: 415px;
+    margin-top: -10px;
+    margin-left: 230px;
+    /*margin: 1rem auto;*/
+    border: 1px solid #ddd;
+    padding: .5rem;
+    background-color: #00308F;
+    background-image: url("cascais.jpg");
+    color:yellow;
+    font-family: 'Noto Sans', sans-serif;
+font-family: 'Playfair Display', serif;
+   
+}
+
+main div.hero button{
+    width: 180px;
+    height: 40px;
+    margin-left: 440px;
+    margin-top: 300px;
+    background-color: green;
+    color:white;
+    border: 1px solid #ddd;
+    padding: .5rem;
+    
+}
+
+main div.event{
+    width: 200px;
+    height: 200px;
+    margin-top: -415px;
+    margin-left: 10px;
+    border: 1px solid #ddd;
+    padding: .5rem;
+    background-color: #00308F;
+    color:yellow;
+    font-family: 'Noto Sans', sans-serif;
+font-family: 'Playfair Display', serif;
+}
+
+main div.event h4{
+    color:#ddd;
+    text-align: center;
+}
+
+main div.event p{
+    color:#ddd;
+    text-align: center;
+}
+
+main div.weather{
+    width: 200px;
+    height: 200px;
+    margin-top: 15px;
+    margin-left: 10px;
+    border: 1px solid #ddd;
+    padding: .5rem;
+    background-color: #00308F;
+    color:yellow;
+    font-family: 'Noto Sans', sans-serif;
+font-family: 'Playfair Display', serif;
+}
+
+main div.weather p{
+    color:#ddd;
+    text-align: left;
+    
+}
+
+main div.news{
+    width: 640px;
+    height: 195px;
+    margin-top: 15px;
+    margin-left: 230px;
+    /*margin: 1rem auto;*/
+    border: 1px solid #ddd;
+    padding: .5rem;
+    background-color: #00308F;
+    color:yellow;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+
+main div.news p{
+    color:#ddd;
+}
+
+div .horizontal{
+    width: 200px;
+    height: 1px;
+    margin-top: -32px;
+    background-color: #ddd;
+    align-items: center;
+    justify-items: center;
+
+}
+
+
+
+main div.join{
+    width: 200px;
+    height: 200px;
+    margin-top: -200px;
+    margin-left: 10px;
+    border: 1px solid #ddd;
+    padding: .5rem;
+    background-color: #00308F;
+    color:white;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+
+main div.join button{
+    width: 180px;
+    height: 40px;
+    align-content: center;
+    justify-content: center;
+    background-color: green;
+    color:white;
+    border: 1px solid #ddd;
+    padding: .5rem;
+}
+
+main div.join p{
+    color: #ddd;
+    text-align: center;
+}
+
+main div.spotlight{
+    width: 300px;
+    height: 630px;
+    margin-left: 890px;
+    margin-top: -625px;
+    border: 1px solid #ddd;
+    padding: .5rem;
+    background-color: #00308F;
+    display: grid;
+    grid-template-columns: 1fr;
+    color:yellow;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+
+main div.spot{
+    width: 230px;
+    height: 170px;
+    margin: 1rem auto;
+    border: 1px solid black;
+    padding: .5rem;
+    background-color: #00308F;
+    color:yellow;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+
+main div.spot p{
+    text-align: center;
+    margin-top: 35px;
+    color:#ddd;
+}
+
+footer{
+    
+    border: 1px solid #ddd;
+    padding: .5rem;
+    background-color: #505050;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+footer img{
+    width: 150px;
+    height: auto;
+}
+
