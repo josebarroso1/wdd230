@@ -1,0 +1,461 @@
+@media only screen and (min-width: 769px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        
+    }
+
+
+    body {
+        font-size: 16px;
+    }
+
+    /*header, main, footer {
+        max-width: 700px;
+        margin: 0 auto; 
+    }*/
+
+    header {
+        width: 100% auto;
+        margin: 1rem auto;
+        border: 1px solid #808080;
+        padding: .5rem;
+        background-color: #000000;
+        background-image: url("victoria-falls-zambia.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        /*grid-template-columns: 200px 1fr;*/
+        align-items: center;
+        font-family: 'Tapestry', cursive;
+    }
+
+    header img{
+        width: 90px;
+        height: auto;
+        border-radius: 90px;
+    }
+
+    h1{color:white;}
+
+    header div{
+        background-color: #808080;
+    }
+
+    nav ul{
+        display: flex;
+        margin-right: 82px auto;
+        margin-left: 0px auto;
+        color:#FFFFFF;
+    }
+
+    nav ul a{
+        display: flex;
+        margin-top: -30px ;
+        margin-right: 80px;
+        margin-left: 0px ;
+        color:#FFFFFF;}
+
+    div.social{ 
+        width: 00px auto;
+        display: flex;}
+
+    nav div a img{
+        width: 30px auto;
+        display:flex;
+        margin-top: -30px;
+    }
+
+    div.date{margin-top:120px;
+        border: solid #ddd;
+        padding: .5rem;
+        background-color: #F0F0F0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    body{background-color: #000000;}
+
+    main{display:grid;
+        grid-template-columns: 1fr 1frf 1fr;
+        width: auto;
+        margin: 40px;
+        background-color: #000000;
+        
+    }
+
+    main div.hero{
+        width: 640px auto;
+        height: 415px;
+        margin-top: -10px;
+        margin-left: 230px;
+        /*margin: 1rem auto;*/
+        /*border: 1px solid #ddd;*/
+        padding: .5rem;
+        background-color: #fb4f14;
+        background-image: url("imbondeiro.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        color:#fb4f14;
+        font-family: 'Kanit', sans-serif;
+    
+    }
+
+    main div.hero button{
+        width: 180px;
+        height: 45px;
+        margin-left: 440px;
+        margin-top: 300px;
+        background-color: transparent;
+        color:#ddd;
+        border: 3px solid #ddd;
+        border-radius: 15px;
+        padding: .5rem;
+        
+    }
+
+    main div.event{
+        width: 200px auto;
+        height: 200px;
+        margin-top: -415px;
+        margin-left: 10px;
+        /*border: 1px solid #ddd;*/
+        padding: .5rem;
+        background-color: #fb4f14;
+        background-image: url("diamantes\ angola.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        color:#fb4f14;
+        font-family: 'Kanit', sans-serif;
+    }
+
+    main div.event h4{
+        color:white;
+        text-align: center;
+        font-family: 'Kanit', sans-serif;
+    }
+
+    main div.event p{
+        color:white;
+        text-align: center;
+        font-family: 'Kanit', sans-serif;
+    }
+
+    main div.event1{
+        width: 200px ;
+        height: 200px;
+        margin-top: -415px;
+        margin-left: 10px;
+        /*border: 1px solid #ddd;*/
+        padding: .5rem;
+        background-color: #fb4f14;
+        background-image: url("igreja.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        color:#fb4f14;
+        font-family: 'Kanit', sans-serif;
+    }
+
+    main div.event1 h4{
+        color:white;
+        text-align: center;
+        font-family: 'Kanit', sans-serif;
+    }
+
+    main div.event1 p{
+        color:black;
+        text-align: center;
+        font-family: 'Kanit', sans-serif;
+    }
+
+    main div.weather{
+        width: 200px auto;
+        height: 200px;
+        margin-top: 15px;
+        margin-left: 10px;
+        /*border: 1px solid #ddd;*/
+        padding: .5rem;
+        background-color: #fb4f14;
+        background-image: url("960.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        color:#fb4f14;
+        font-family: 'Kanit', sans-serif;
+    }
+
+    main div.weather p{
+        color:blue;
+        text-align: left;
+        font-family: 'Kanit', sans-serif;
+        
+    }
+
+    main div.news{
+        width: 640px auto;
+        height: 195px;
+        margin-top: 15px;
+        margin-left: 230px;
+        /*margin: 1rem auto;*/
+        /*border: 1px solid #ddd;*/
+        padding: .5rem;
+        /*background-color: #fb4f14;*/
+        color:#fb4f14;
+        font-family: 'Kanit', sans-serif;
+    }
+
+    main div.news p{
+        color:white;
+        font-family: 'Kanit', sans-serif;
+    }
+
+    div .horizontal{
+        width: 200px;
+        height: 1px;
+        margin-top: -32px;
+        background-color: #ddd;
+        align-items: center;
+        justify-items: center;
+
+    }
+
+
+
+    main div.join{
+        width: 200px auto;
+        height: 200px;
+        margin-top: -200px;
+        margin-left: 10px;
+        /*border: 1px solid #ddd;*/
+        padding: .5rem;
+        background-color: #fb4f14;
+        background-image: url("holding\ hands.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        color:white;
+        font-family: 'Kanit', sans-serif;
+    }
+
+    main div iframe{width: 900px auto;
+        
+
+    }
+
+    main div.join button{
+        width: 175px;
+        height: 40px;
+        align-content: center;
+        justify-content: center;
+        background-color: transparent;
+        color:white;
+        border: 1.5px solid #ddd;
+        border-radius: 15px;
+        padding: .5rem;
+    }
+
+    main div.join p{
+        color: white;
+        text-align: center;
+        font-family: 'Kanit', sans-serif;
+    }
+
+    main div.spotlight{
+        width: 300px auto;
+        height: 630px;
+        margin-left: 890px;
+        margin-top: -625px;
+        border: 1px solid #808080;
+        padding: .5rem;
+        /*background-color: #fb4f14;*/
+        display: grid;
+        grid-template-columns: 1fr;
+        color:#fb4f14;
+        font-family: 'Kanit', sans-serif;
+    }
+
+    main div.spot1{
+        width: 230px auto;
+        height: 170px;
+        margin: 1rem auto;
+        border: 1px solid black;
+        padding: .5rem;
+        background-color: #fb4f14;
+        background-image: url("vestido\ africano.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    
+    }
+
+    main div.spot1 h2{
+        color:#fb4f14;
+        font-family: 'Kanit', sans-serif;
+        margin-top: -35px;
+    }
+
+    main div.spot1 p{
+        text-align: center;
+        margin-top: 65px;
+        color:white;
+        font-family: 'Kanit', sans-serif;
+    }
+
+    main div.spot1-1{
+        width: 230px auto;
+        height: 170px;
+        margin: 1rem auto;
+        border: 1px solid black;
+        padding: .5rem;
+        background-color: #fb4f14;
+        background-image: url("grafico\ da\ populacao.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom center;
+    
+    
+    }
+
+    main div.spot1-1 h2{
+        color:#fb4f14;
+        font-family: 'Kanit', sans-serif;
+        margin-top: -35px;
+    }
+
+    main div.spot1-1 p{
+        text-align: center;
+        margin-top: 65px;
+        color:black;
+        font-family: 'Kanit', sans-serif;
+    }
+
+    main div.spot2{
+        width: 230px auto;
+        height: 170px;
+        margin: 1rem auto;
+        border: 1px solid black;
+        padding: .5rem;
+        background-color: #fb4f14;
+        background-image: url("artesanato.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    main div.spot2 h2{
+        color:#fb4f14;
+        font-family: 'Kanit', sans-serif;
+        margin-top: -37px;
+    }
+
+    main div.spot2 p{
+        text-align: center;
+        margin-top: 50px;
+        color:white;
+        font-family: 'Kanit', sans-serif;
+    }
+
+    main div.spot2-1{
+        width: 230px auto;
+        height: 170px;
+        margin: 1rem auto;
+        border: 1px solid black;
+        padding: .5rem;
+        background-color: #fb4f14;
+        background-image: url("danca.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    main div.spot2-1 h2{
+        color:#fb4f14;
+        font-family: 'Kanit', sans-serif;
+        margin-top: -37px;
+    }
+
+    main div.spot2-1 p{
+        text-align: center;
+        margin-top: 50px;
+        color:blue;
+        font-family: 'Kanit', sans-serif;
+    }
+
+    main div.spot3{
+        width: 230px auto;
+        height: 170px;
+        margin: 1rem auto;
+        border: 1px solid black;
+        padding: .5rem;
+        background-color: #00308F;
+        background-image: url("frutaafricana.jpg");
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: bottom center;
+    }
+
+    main div.spot3 h2{
+        color:#fb4f14;
+        font-family: 'Kanit', sans-serif;
+        margin-top: -35px;
+    }
+
+    main div.spot3 p{
+        text-align: center;
+        margin-top: 35px;
+        color:white;
+        font-family: 'Kanit', sans-serif;
+    }
+
+    main div.spot3-1{
+        width: 230px auto;
+        height: 170px;
+        margin: 1rem auto;
+        border: 1px solid black;
+        padding: .5rem;
+        background-color: #00308F;
+        background-image: url("tribos.png");
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: bottom center;
+    }
+
+    main div.spot3-1 h2{
+        color:#fb4f14;
+        font-family: 'Kanit', sans-serif;
+        margin-top: -35px;
+    }
+
+    main div.spot3-1 p{
+        text-align: center;
+        margin-top: 35px;
+        color:white;
+        font-family: 'Kanit', sans-serif;
+    }
+
+    footer{
+        
+        border: 1px solid #808080;
+        padding: .5rem;
+        background-color: #000000;
+        color:white;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        background-image: url("luanda-angola.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        
+    }
+
+    footer img{
+        width: 150px;
+        height: auto;
+        border-radius: 90px;
+    }
+}
