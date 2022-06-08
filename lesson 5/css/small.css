@@ -1,0 +1,46 @@
+
+h1{
+    text-align: center;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    box-sizing: border-box;
+}
+
+.outbox{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px auto;
+    margin: 10px auto;
+    background-color: #4FFFB0;
+    border: 1px solid #333;
+    /*width: 960px;
+    height: 500px;*/
+}
+
+.add{
+    display: flex;
+}
+
+.insidebox{
+    display: flex;
+    margin: 10px auto;
+    background-color: #4FFFB0;
+    border: 1px solid #333;
+    width: 860px;
+    height: 400px;
+}
+
+ul {
+    margin: 1.5rem;
+    list-style: none;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    margin: 1.5rem;
+    justify-content: space-between;
+}
