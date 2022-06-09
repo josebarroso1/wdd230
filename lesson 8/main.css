@@ -1,0 +1,59 @@
+
+table{
+    border-spacing: 0px;
+}
+
+table,caption,tr, td {
+    border: 1px solid black;
+    border-spacing: 0px;
+}
+
+thead{
+    width: 100% auto;
+}
+
+#toptitle{
+    width: 100% auto;
+    background-color: #ACE1AF;
+    color:white;
+    font-family: 'Kanit', sans-serif;
+    border: 1px solid black;
+}
+
+#second{
+    background-color: #007FFF;
+    border: 1px solid black;
+    font-family: 'Kanit', sans-serif;
+
+}
+
+#grey{
+    background-color: grey;
+    border: 1px solid black;
+    font-family: 'Kanit', sans-serif;
+}
+
+#green{
+    background-color:#1CAC78;
+    border: 1px solid black;
+    font-family: 'Kanit', sans-serif;
+}
+
+#blue{
+    background-color: #007FFF;
+    font-family: 'Kanit', sans-serif;
+}
+#big{
+    font-family: 'Kanit', sans-serif;
+    background-color: grey;
+    width: 70px;
+    text-align: center;
+    
+}
+
+#botton{
+    font-family: 'Kanit', sans-serif;
+    background-color: #ACE1AF;
+    text-align: center;
+}
+

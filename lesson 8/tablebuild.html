@@ -7,49 +7,59 @@
     <title>José Barroso</title>
     <meta name="description" content="Assignment portal for Jose Barroso in WDD 230: 
     Web Frontend Development at Brigham Young University - Idaho">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <table>
-        <tr>
-            <th>ACME Wildwest</th>
-        </tr>
-        <tr>
-            <td>Period</td>
-            <td>Sales</td>
-            <td>Sales Goal</td>
-        </tr>
-        <tr>
-            <td>August</td>
-            <td>$3,590</td>
-            <td>$4,000</td>
-        </tr>
-        <tr>
-            <td>September</td>
-            <td>$4,420</td>
-            <td>$5,000</td>
-        </tr>
-        <tr>
-            <td>October</td>
-            <td>$4,870</td>
-            <td>$5,000</td>
-        </tr>
-        <tr>
-            <td>November</td>
-            <td>$8,610</td>
-            <td>$7,500</td>
-        </tr>
-        <tr>
-            <td>black Friday</td>
-            <td>$3,200</td>
-        </tr>
-        <tr>
-            <td>December</td>
-            <td>$6,820</td>
-            <td>$7,500<td>
-        </tr>
-        <tr>
-            <tf>Compiled 12.20.2020 by ze</tf>
+        <caption id="toptitle"><h1>ACME Wildwest</h1></caption>
+        <thead>
+            <tr id="second">
+                <th scope="col">Period</th>
+                <th scope="col">Sales</th>
+                <th scope="col">Sales Goal</th>
+            </tr>  
+        </thead>
+        <tbody>
+            <tr>
+                <td id="grey" >August</td>
+                <td id="grey">$3,590</td>
+                <td id="grey">$4,000</td>
+            </tr>
+            <tr>
+                <td id="green">September</td>
+                <td id="green">$4,420</td>
+                <td id="green">$5,000</td>
+            </tr>
+            <tr>
+                <td id="grey">October</td>
+                <td id="grey">$4,870</td>
+                <td id="grey">$5,000</td>
+            </tr>
+            <tr>
+                <td id="green">November</td>
+                <td id="green">$8,610</td>
+                <td id="blue">$7,500</td>
+            </tr>
+            <tr>
+                <td id="grey">black Friday</td>
+                <td id="big" colspan="2">$3,200</td>
+                
+            </tr>
             
-        </tr>
+            <tr>
+                <td id="green">December</td>
+                <td id="green">$6,820</td>
+                <td id="green">$7,500</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td id="botton" colspan="3">Compiled 12.20.2020 by ze</td>
+                
+            </tr>
+        </tfoot>
     </table>
 </body>
