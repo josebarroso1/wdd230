@@ -155,7 +155,7 @@
     main div.news{
         width: 640px;
         height: 195px;
-        margin-top: 15px;
+        margin-top: 55px;
         margin-left: 230px;
         /*margin: 1rem auto;*/
         /*border: 1px solid #ddd;*/
@@ -185,7 +185,7 @@
     main div.join{
         width: 200px;
         height: 200px;
-        margin-top: -200px;
+        margin-top: -230px;
         margin-left: 10px;
         /*border: 1px solid #ddd;*/
         padding: .5rem;
@@ -220,7 +220,7 @@
         width: 300px;
         height: 630px;
         margin-left: 890px;
-        margin-top: -625px;
+        margin-top: -635px;
         border: 1px solid #808080;
         padding: .5rem;
         /*background-color: #fb4f14;*/
@@ -325,4 +325,52 @@
         height: auto;
     }
 
+}
+
+
+form{
+    background-color: #808080;
+    width: 470px;
+    height: 445px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #808080;
+}
+
+
+.details{color:blue}
+
+
+#firstname{width: 300px;
+    margin-left: 29px;
+    }
+
+#lastname{
+    margin-left: 30px;
+    width: 300px;}
+
+#email{width: 300px;
+    margin-left: 65px;
+    }
+
+#Phone{width: 300px;
+    }
+
+#businessname{width: 300px;
+    }
+
+#positiontitle{width: 250px;
+    }
+
+#businessdescription{width: 260px;
+    }
+
+#membership{width: 280px;
+    }
+
+#submit{
+    width:160px;
+    height:35px;
+    border: 3px solid #ddd;
+    border-radius: 15px;
 }
