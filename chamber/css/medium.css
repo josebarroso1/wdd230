@@ -104,7 +104,7 @@
     main div.event{
         width: 200px;
         height: 200px;
-        margin-top: -415px;
+        margin-top: -480px;
         margin-left: 10px;
         /*border: 1px solid #ddd;*/
         padding: .5rem;
@@ -329,12 +329,14 @@
 
 
 form{
-    background-color: #808080;
+    background-color: 	#C8C8C8;
     width: 470px;
-    height: 445px;
+    height: 420px;
+    margin-top:-380px;
+    margin-left:270px;
     justify-content: center;
     align-items: center;
-    border: 2px solid #808080;
+    border: 2px solid 	#C8C8C8;
 }
 
 
@@ -363,6 +365,8 @@ form{
     }
 
 #businessdescription{width: 260px;
+    height: 60px;
+    text-align: top;
     }
 
 #membership{width: 280px;
@@ -371,6 +375,8 @@ form{
 #submit{
     width:160px;
     height:35px;
+    margin-top:20px;
+    margin-left: 170px;
     border: 3px solid #ddd;
     border-radius: 15px;
 }
