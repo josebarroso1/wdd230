@@ -1,0 +1,21 @@
+{
+    "companies":[
+    {
+        "name": "Endiama",
+        "number":"(+244) 222334585 / 222396597",
+        "adress":"Rua Major Kanhangulo nº 100 Luanda - Angola",
+        "imageurl": "https://www.endiama.co.ao/wp-content/uploads/2019/12/2019-12-12_07h03_00.png",
+        "website URLs":"https://www.endiama.co.ao/"
+    },
+
+    {
+        "name":"Sonangol" ,
+        "number":"(+244) 226 644 000",
+        "adress":"Luanda, Angola Edifício Sede da Sonangol EP 17º Andar Rua Rainha Ginga, n.º 29 -31, Ingombota, Caixa Postal nº 1316.",
+        "imageurl":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Sonangol_Logo.svg/1200px-Sonangol_Logo.svg.png",
+        "website URLs":"https://www.sonangol.co.ao/English/Pages/Home.aspx"
+    },
+
+   
+]
+}

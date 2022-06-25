@@ -104,7 +104,7 @@
     main div.event{
         width: 200px;
         height: 200px;
-        margin-top: -480px;
+        margin-top: -420px;
         margin-left: 10px;
         /*border: 1px solid #ddd;*/
         padding: .5rem;
@@ -185,7 +185,7 @@
     main div.join{
         width: 200px;
         height: 200px;
-        margin-top: -230px;
+        margin-top: -205px;
         margin-left: 10px;
         /*border: 1px solid #ddd;*/
         padding: .5rem;
@@ -220,7 +220,7 @@
         width: 300px;
         height: 630px;
         margin-left: 890px;
-        margin-top: -635px;
+        margin-top: -655px;
         border: 1px solid #808080;
         padding: .5rem;
         /*background-color: #fb4f14;*/
