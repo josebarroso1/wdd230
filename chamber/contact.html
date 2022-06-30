@@ -34,26 +34,26 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
-    <script src="js/windchill.js"></script>
+    <script src="js/discover.js"></script>
 </head>
 
 <body>
     <header>
         <a href="africachamber.html"><img src="images/Logo Kiamguene.png" alt="Logo Kiamguene"></a>
-        <a href="africachamber.html">  <h1>Kiamguene<br>Chamber of Commerce</h1></a>
-       
-       <!--hamburger-->
+    <a href="africachamber.html">  <h1>Kiamguene<br>Chamber of Commerce</h1></a>
+
+         <!--hamburger-->
        <nav>
-           <!--<button
-            class="hamburger"
-            type="button"
-            aria-label="Menu"
-            aria-controls="Nav">
-                &equiv;
-           </button>-->
-            <ul class="navigation">
-    
-                <li>
+        <!--<button
+         class="hamburger"
+         type="button"
+         aria-label="Menu"
+         aria-controls="Nav">
+             &equiv;
+        </button>-->
+         <ul class="navigation">
+ 
+            <li>
                 <a href="discover.html">Discover</a>
                 </li>
 
@@ -68,67 +68,86 @@
                 <li>
                 <a href="contact.html">Contact</a>
                 </li>
-        </nav>
-        <nav>
-            </ul>
-            <div class="social">
-                <a href="https://www.facebook.com/"><img src="images/facebook icon.png"></a>
-                <a href="https://www.linkedin.com/home"><img src="images/linkedin_icon.png"></a>
+     </nav>
+     <nav>
+         </ul>
+         <div class="social">
+             <a href="https://www.facebook.com/"><img src="images/facebook icon.png"></a>
+             <a href="https://www.linkedin.com/home"><img src="images/linkedin_icon.png"></a>
+         </div>
+     </nav>
+     
+ </header>
+
+ <main>
+
+    <div class="containerc">   
+        <form action="containerc">
+            <span class="details">First name</span>
+            <input type="name" id="firstname" placeholder="First name*" required><br>
+            <br>
+            <span class="details">Last name</span>
+            <input type="name" id="lastname" placeholder="Last name*" required><br>
+            <br>
+            <span class="details">Email</span>
+            <input type="name" id="email" placeholder="Email*" required><br>
+            <br>
+            <span class="details">Business name</span>
+            <input type="text" id="businessname" placeholder="Business name*" required><br>
+            <br>
+            <span class="details">Questions</span>
+            <input type="text" id="questions" placeholder=""><br>
+            <br>
+                <button id="submit">Submit</button></div>
+            
+        </form>
+    </div> 
+
+    <div id="secondcontainer">
+            <div class="data">
+                <h3>Visit Us</h3>
+                <p>Kiamguene Chamber of Commerce </p>
+                <p>10 Rue De la Paix</p>  
+                
             </div>
-        </nav>
-        
-            <div class="date">
+            <br>
+            <div class="data">
+                <h3>Our schedules</h3>
+                <p>Monday to Friday: 8:30 a.m. to 4:30 p.m.</p>
+   
             </div>
-       
-       <!---data-->
-    </header>
-    
-    <main>
-        <div class="placeholder-box hero"><h2>Welcome to Kiamguene</h2> <button>Join the Chamber</button></div>
-        <div class="placeholder-box event"><h2>Ribbon Cutting</h2><br> <h4>The Diamond Shack 💎</h4> 
-            <br> <p>Join us for the grand opening of The Diamond Shack, Thursday at 1:oo p.m</p></div>
-        <div class="placeholder-box weather"><h2>Weather ⛅ </h2> 
-            <p id="caption"></p>
             <br>
-            <p id="temperature">temperature: <span id="currentTemp"></span> &deg;C</p>
-            <br>
-            <p id="wind1">Wind Speed:  <span id="currentWind"></span> km/h</p> 
-            <br>
-            <p id="wind2">Wind Chill: <span id="fw">N/A</span></p>
-        </div>
 
-        <div class="placeholder-box news"><h2>News Release</h2> <br> 
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-             Ea delectus quasi quisquam rerum dolorem, libero obcaecati sed ducimus accusantium,
-              officiis, inventore cumque quidem voluptates suscipit molestias veritatis dignissimos
-               asperiores nam? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim, dolorum.
-                Suscipit harum animi vel est, ipsa, iusto distinctio magnam nisi aliquid hic eum omnis
-                 consequuntur iste iure quaerat. Commodi, quam!</p></div>
-        <div class="placeholder-box join"><button><h2>Join Us</h2></button> <br> <br><br> 
-            <p> Discover how to join the <br>chamber of commerce and how 
-                <br>it will benefit your <br>organization!</p></div>
+            <div class="data">
+                <h3>Points of Contact</h3>
+                <div>           
+                    <p>José Barroso</p>
+                    <p>President & CEO </p>
+                    <p>913126424</p>
+                </div>
+                <br>
+                <div >
+                    <p>Filipa Santarem</p>
+                    <p>Director of Marketing & Membership</p>
+                    <p>913126425</p>
+                </div>
+                <br>
+                <div>
+                    <p>Paulo Barroso</p>
+                    <p>Operations Assistant</p>
+                    <p>913126426</p>
+                </div>
+                <br>
+                <div>
+                    <p>Eliane Dias</p>
+                    <p>Bookkeeper/Grant Project Manager</p>
+                    <p>913126427</p>                    
+                </div>
+            </div>
+    </div>
+</main>
 
-        <div class="placeholder-box spotlight">
-            <div class="placeholder-box spot1"><h2>African Fashion</h2> 
-                <p>"The best traditional african clothing for you!"</p>
-                <div class="horizontal"> <p>hello@africanfashion.com <br> +999-9999-9999 Website</p>
-                </div> </div>
-
-            <div class="placeholder-box spot2"><h2>Craftsmanship</h2><br> <p>"Decore you home with african art
-                 ."</p>
-                 <div class="horizontal"> <p>contact@Craftsmanship.com <br> +999-9999-9999 Website</p>
-                 </div></div>
-
-            <div class="placeholder-box spot3"><h2>Tropical Fruits </h2><br> 
-                <p>Over 100 Tropical Fruits!</p>
-                <div class="horizontal"> <p>builda@treefort.com <br> +888-8888-8888 Website</p>
-                </div></div>
-        </div>
-          
-    </main>
-    
-
-
+</body>
 
 <footer>
     <img src="images/Logo Kiamguene.png" alt="Logo Kiamguene">
@@ -145,8 +164,7 @@
     <!--barra-->
     <p>&copy 2022 .:|:. Jose Barroso .:|:. Lisbon <p id="lastUpdate"></p></p>
     <!--ultima modificação-->
+
 </footer>
 <script src="js/current date.js"></script>
-
-</body>
 </html>
