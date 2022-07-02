@@ -387,34 +387,116 @@ form{
 }
 
 .containerc{
-    background-color:red;
+    background-color:#fb4f14;
     width: 470px;
-    height: 420px;
-    margin-top:500px;
-    
-    
+    height: 440px;
+    margin-top: 20px;
+    border: 1px solid 	#C8C8C8;
 }
 
 #containerc{
-    background-color:#fb4f14;
+    background-color:#C8C8C8;
     width: 470px;
-    height: 240px;
-    margin-top:200px
+    height: 440px;
+    margin-top:-27.9px;
+    margin-left:160px;
     border: 1px solid 	#C8C8C8;
 }
 
 #secondcontainer{
-    background-color: 	#fb4f14;
+    background-color:	#fb4f14;
     width: 370px;
-    height: 430px;
-    margin-top:-430px;
+    height: 440px;
+    margin-top:-435px;
     margin-left:770px;
     justify-content: center;
     align-items: center;
-    border: 1px solid 	#C8C8C8;
+    text-align: center;
 }
 
 
 .data p{
     color:#00308F
 }
+
+#discover h2 {
+    color:#ddd;
+    text-align: center;
+}
+
+#discover p {
+    color:#ddd;
+    text-align: center;
+}
+
+#discover img{
+    margin-left: 3px;
+}
+
+.one{
+    background-color: #fb4f14;
+    border: 2px solid 	#C8C8C8;
+    width: 510px;
+    height: 535px;
+    float: left;
+}
+
+.two{
+    margin-left: 45px;
+    background-color: #fb4f14;
+    border: 2px solid 	#C8C8C8;
+    width: 510px;
+    height: 620px;
+    float: right;
+   
+}
+
+.three{
+    margin-top:35px;
+    background-color: #fb4f14;
+    border: 2px solid 	#C8C8C8;
+    width: 510px;
+    height: 640px;
+    float: left;
+}
+
+.four{
+    margin-top:35px;
+    margin-left: 45px;
+    background-color: #fb4f14;
+    border: 2px solid 	#C8C8C8;
+    width: 510px;
+    height: 530px;
+    float: right;
+    
+}
+
+.five{
+    margin-left: -170px;
+    margin-top:80px;
+    background-color: #fb4f14;
+    border: 2px solid 	#C8C8C8;
+    width: 510px;
+    height: 570px;
+    float: left;
+}
+
+.six{
+    margin-top:35px;
+    margin-left: 45px;
+    background-color: #fb4f14;
+    border: 2px solid 	#C8C8C8;
+    width: 510px;
+    height: 530px;
+    float: right;
+}
+
+.seven{
+    margin-top:35px;
+    background-color: #fb4f14;
+    border: 2px solid 	#C8C8C8;
+    width: 510px;
+    height: 550px;
+    float: left;
+}
+

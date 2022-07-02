@@ -34,6 +34,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+    <script src="js/windchill.js"></script>
 </head>
 
 <body> <header>
@@ -163,14 +164,15 @@ butao "Submit"-->
 
      <div class="placeholder-box event"><h2>Ribbon Cutting</h2><br> <h4>The Diamond Shack 💎</h4> 
          <br> <p>Join us for the grand opening of The Diamond Shack, Thursday at 1:oo p.m</p></div>
-     <div class="placeholder-box weather"><h2>Weather ⛅ </h2> <br> 
-         <p>Mostly sunny: 21°C<br>
-             <br>
-         Precipitation: 1%<br>
-         <br>
-         Humidity: 57%<br>
-         <br>
-         Wind: 18 km/h</p></div>
+    <div class="placeholder-box weather"><h2>Weather ⛅ </h2> 
+        <p id="caption"></p>
+        <br>
+        <p id="temperature">temperature: <span id="currentTemp"></span> &deg;C</p>
+        <br>
+        <p id="wind1">Wind Speed:  <span id="currentWind"></span> km/h</p> 
+        <br>
+        <p id="wind2">Wind Chill: <span id="fw">N/A</span></p>
+    </div>
      <div class="placeholder-box news"><h2>News Release</h2> <br> 
          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
           Ea delectus quasi quisquam rerum dolorem, libero obcaecati sed ducimus accusantium,
