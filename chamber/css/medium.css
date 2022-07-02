@@ -500,3 +500,7 @@ form{
     float: left;
 }
 
+.clear{
+    clear: both;
+}
+
