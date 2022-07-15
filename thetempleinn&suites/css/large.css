@@ -62,9 +62,15 @@
 
     #links a{
         color:#C6AB58;
-        padding-top: 20px;
+        padding-top: 0px;
         padding-left: 90px;
-        
+        float:left
+    }
+
+    .social img{
+        padding-left: 0px;
+        margin-left: 60px;
+        width: 20px;
     }
     
     .reservation{
@@ -144,7 +150,7 @@
     .templeinf p{
         color:black;
         margin-left: 35px;
-        margin-right: 20px;
+        margin-right: 45px;
     }
 
     .templeinf a{
