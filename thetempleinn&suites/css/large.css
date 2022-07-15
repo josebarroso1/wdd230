@@ -1,0 +1,212 @@
+@media only screen and (min-width: 769px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        
+    }
+
+    body {
+        font-size: 16px;
+    }
+
+    header, main, footer {
+        max-width: 3700px;
+        margin: 0 auto; 
+    }
+
+    header{
+        background-color:#0B3E73;
+        height: 103px;
+    }
+
+    #topheader img{
+        float: left;
+        width: 150px;
+    }
+
+    #topheader h1{
+        float: left;
+        color:white;
+        font-size:50px;
+        margin-left: 100px;
+        margin-top: 0px;
+    }
+
+    .clear{
+        clear: both;
+    }
+    
+    #topheader div img{
+        border-radius: 90px;
+        width: 30px;
+        margin-top: 20px;
+        padding-left: 5px;
+        margin-left: 420px;
+        float:left
+    }
+
+    #topheader p{
+        padding-top: 22px;
+        padding-left: 10px;
+        color:white;
+        
+    }
+
+
+    #links hr{
+        border: 1px solid #C6AB58;
+        margin-top: -15px;
+        margin-bottom: 13px;
+    }
+
+    #links a{
+        color:#C6AB58;
+        padding-top: 20px;
+        padding-left: 90px;
+        
+    }
+    
+    .reservation{
+        height: 506px;
+        position: relative;
+        background-image:url(hotel\ de\ luxo.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        animation: change 35s  3s infinite ease-in-out;
+        border-bottom: 1px solid #C6AB58;
+        
+    }
+
+    @keyframes change{
+        0%
+        
+        {
+            background-image: url(hotel\ de\ luxo.jpg);
+        }
+        20%
+        {
+            background-image: url(entrada.jpg);
+        }
+        40%
+        {
+            background-image: url(sala\ de\ estar.jpg);
+        }
+        60%
+        {
+            background-image: url(quarto\ do\ hotel.jpg);
+        }
+        
+        80%
+        {
+            background-image: url(restaurante\ do\ hotel\ 2.jpg);
+        }
+    }
+    .reservation h2{
+        padding-top: 10px;
+        color: #0B3E73;
+        font-size: 30px;
+        
+    }
+    .reservation a{
+        color: #C6AB58;
+        background-color: #0B3E73;
+        text-decoration: none;
+        margin-top: 10px;
+        margin-left:1130px;
+        padding: 10px 24px;
+        font-size: 18px;
+        border-radius: 20px;
+    }
+
+    .templeinf{
+        width: 980px;
+        height: 400px;
+        background-color: white;
+        
+        float:left;
+    }
+    .templeinf h3{
+        color:#C6AB58;
+        font-size: 29px;
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .templeinf img{
+        border: 2px solid #C6AB58;
+        margin-left: 30px;
+        margin-right: 20px;
+        width:450px;
+        float:left;
+    }
+    .templeinf p{
+        color:black;
+        margin-left: 35px;
+        margin-right: 20px;
+    }
+
+    .templeinf a{
+        
+        color:#0B3E73;
+    }
+
+    h3{
+        padding-top: 10px;
+        padding-bottom: 15px;
+        background-color: white;
+        color:#C6AB58
+    }
+
+    .weather{
+        width: 300px;
+        height: 150px;
+        padding-right: 10px;
+        margin-bottom: 8px;
+        border: 2px solid #C6AB58;
+        background-image: url(ceu.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        float:right;
+    }
+
+    .contacts{
+        background-color: white;
+    }
+
+    .contacts p{
+        margin-top: 2px;
+        color:black;
+    }
+
+    .opentime{
+        height: 200px;
+        background-color: white;
+    }
+
+    .opentime p{
+        color:black;
+    }
+
+    footer{
+        background-color: #0B3E73;
+        border-top: 1px solid #C6AB58;
+        height: 110px;
+    }
+
+    footer img{
+        float: left;
+        width: 150px;
+        margin-right: 20px;
+    }
+
+    footer h1{
+        padding-left: 10px;
+        color: white;
+    }
+
+    footer p{
+        color:white;
+    }
+
