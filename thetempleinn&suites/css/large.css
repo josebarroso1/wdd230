@@ -67,11 +67,7 @@
         float:left
     }
 
-    .social img{
-        padding-left: 0px;
-        margin-left: 60px;
-        width: 20px;
-    }
+    
     
     .reservation{
         height: 506px;
@@ -166,7 +162,7 @@
     }
 
     .weather{
-        width: 300px;
+        width: 280px;
         height: 150px;
         padding-right: 10px;
         margin-bottom: 8px;
@@ -174,7 +170,7 @@
         background-image: url(ceu.jpg);
         background-size:cover;
         background-repeat: no-repeat;
-        float:right;
+        margin-left: 980px;
     }
 
     .contacts{
@@ -204,16 +200,26 @@
     footer img{
         float: left;
         width: 150px;
-        margin-right: 20px;
+        margin-left: 00px;
+        
     }
 
     footer h1{
         text-decoration:none;
         padding-left: 10px;
         color: white;
+        float: left;
     }
 
     footer p{
         color:white;
+        text-align: center;
+        justify-content: left;
+    }
+    .social img{
+        
+        margin-right: 10px;
+        width: 30px;
+        float:right;
     }
 
