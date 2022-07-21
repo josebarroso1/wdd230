@@ -61,6 +61,7 @@
     }
 
     #links a{
+        text-decoration: none;
         color:#C6AB58;
         padding-top: 0px;
         padding-left: 90px;
@@ -223,3 +224,28 @@
         float:right;
     }
 
+    #form{
+        width:580px;
+        height: 390px;
+        margin-top: 10px;
+        margin-left: 300px;
+        padding-top: 10px;
+        padding-left: 75px;
+        word-spacing: 1px;
+        border:2px solid #C6AB58;
+        float: left;
+    }
+
+    .reser h3{
+        float:right;
+        padding-right: 210px;
+    }
+
+    #submitreser{
+        background-color: #0B3E73;
+        color: #C6AB58;
+        width: 70px;
+        border-radius: 10px;
+    }
+
+}

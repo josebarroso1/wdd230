@@ -39,23 +39,111 @@
             
 
         </header>
+        <main>
+            <form id="form" action="results.html" method="GET">
+                <div>
+                    <label for="name">Full-Name</label>
+                    <input type="text" name="name" id="name" required>
+                </div>
+                <br>
+                <div>
+                    <label for="phone">Phone</label>
+                    <input type="tel" name="phone" id="phone" required>
+                </div>
+                <br>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <br>
+                <div>
+                    <label for="home country">Home Country</label>
+                    <input type="text" name="country" id="country">
+                </div>
+                <br>
+                <div>
+                    <label for="location">Location</label>
+                    <input type="location" name="location" id="location">
+                </div>
+                <br>
+                
+                <div>
+                    <label for="number">Number of people</label>
+                    <input type="number" name="name" id="name" min="1" max="20" required>
+                </div>
+                <br>
+                
+                <div>
+                    <label for="rooms">Type of rooms </label>
+                    <select  name="rooms" id="rooms" required>
+                        <option value="suit">Junior Suite</option>
+                        <option value="suit">Deluxe Suite</option>
+                        <option value="suit">Executive Suite</option>
+                        <option value="suit">Terrace Suite</option>
+                        <option value="suit">Penthouse Suite</option>
+                        <option value="suit">Presidencial Suite</option>
+                        <option value="suit">Royal Suite</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label for="Days">Days</label>
+                    <input type="number" name="days" id="days" min="1" max="20" required>
+                </div>
+                <br>
+                <div>
+                    <label for="date">Date</label>
+                    <input type="date" name="date" id="date" required>
+                </div>
+                <br>
+                
+                <button  id="submitreser" type="submit">Submit</button>
+
+            </form>
+            <div>
+                <div class="reser">
+                <h3>Weather:</h3></div>
+                <br>
+                <br>
+                <br>
+                <div class="weather">
+                    <p id="temperature">Temperature: <span id="currentTemp"></span> &deg;C</p>
+                </div>
+            </div>
+            <div class="clean"></div>
+            <div class="clean"></div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        
+
+        </main>
 
         
-    <footer>
-        <a href="templesuites.html"><img src="images/logo temple.png" alt="Logo"></a>
-        <a href="templesuites.html"><h1>The Temple Suites</h1></a>
-        
-        <div class="social">
-            <a href="https://www.facebook.com/"><img src="images/facebook icon.png"></a>
-            <a href="https://www.instagram.com/"><img src="images/instagram.jpg"></a>
-        </div>
-        <div class="clean"></div>
-        <br>
-        <br>
-        <p>Address: Av. Dom João II 4.72 00, 1990-364 Lisboa</p>
-        
-        <p>&copy 2022 .:|:. Jose Barroso .:|:. Lisbon <p id="lastUpdate"></p></p>
+        <footer>
+            <a href="templesuites.html"><img src="images/logo temple.png" alt="Logo"></a>
+            
+            
+            <div class="social">
+                <a href="https://www.facebook.com/"><img src="images/facebook icon.png"></a>
+                <a href="https://www.instagram.com/"><img src="images/instagram.jpg"></a>
+            </div>
+            <div class="clean"></div>
+            <br>
+            <br>
+            <p>Address: Av. Dom João II 4.72 00, 1990-364 Lisboa</p>
+            
+            <p>&copy 2022 .:|:. Jose Barroso .:|:. Lisbon <p id="lastUpdate"></p></p>
 
-    </footer>
-    <script src="js/current date.js"></script>
+        </footer>
+        <script src="js/current date.js"></script>
 </html>
