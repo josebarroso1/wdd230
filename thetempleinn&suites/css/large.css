@@ -248,4 +248,195 @@
         border-radius: 10px;
     }
 
+    .services img{
+        width:1263px;
+        height: 600px;
+    }
+    
+
+    .breakfast{
+        height: 600px;
+        margin-top: -10px;
+        position: relative;
+        background-image:url(breakfast.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        animation: changeb 10s   infinite ease-in-out;
+        border-bottom: 2px solid #C6AB58;
+        border-top: 1px solid #C6AB58;
+    }
+
+    @keyframes changeb{
+        10%
+        
+        {
+            background-image: url(tablebreakfast.jpg);
+        }
+        
+    }
+
+    .breakfast h2{
+        color: #0B3E73;
+        text-align: center;
+        padding-top: 300px;
+        font-size: 50px;
+    }
+    
+        .gym{
+            height: 600px;
+            position: relative;
+            background-image:url(gym.jpg);
+            background-size:cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            animation: changeg 10s   infinite ease-in-out;
+            border-bottom: 2px solid #C6AB58;
+        }
+    
+        @keyframes changeg{
+            10%
+            
+            {
+                background-image: url(gyms2.jpg);
+            }
+            
+        }
+
+        .gym h2{
+            color: #0B3E73;
+            text-align: center;
+            padding-top: 300px;
+            font-size: 50px;
+        }
+
+        .pool{
+            height: 600px;
+            position: relative;
+            background-image:url(indoor\ pools.jpg);
+            background-size:cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            animation: changep 10s   infinite ease-in-out;
+            border-bottom: 2px solid #C6AB58;
+        }
+    
+        @keyframes changep{
+            00%
+            
+            {
+                background-image: url(kidspool.jpg);
+            }
+            20%
+            
+            {
+                background-image: url(kidspool2.jpg);
+            }
+            
+        }
+        .pool h2{
+            color: #0B3E73;
+            text-align: center;
+            padding-top: 300px;
+            font-size: 50px;
+        }
+    
+
+        .family{
+            height: 600px;
+            position: relative;
+            background-image:url(FamilySearch.png);
+            background-size:cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            animation: changef 10s   infinite ease-in-out;
+            border-bottom: 2px solid #C6AB58;
+        }
+    
+        @keyframes changef{
+            00%
+            
+            {
+                background-image: url(Lehi_FSC_Classroom_Banner.jpg);
+            }
+            20%
+            
+            {
+                background-image: url(Lehi-Family-Search-Center-6.jpg);
+            }
+            
+        }
+        .family h2{
+            color: #0B3E73;
+            text-align: center;
+            padding-top: 300px;
+            font-size: 50px;
+        }
+
+        .wedding{
+            height: 600px;
+            position: relative;
+            background-image:url(wedding\ lds.jpg);
+            background-size:cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            animation: changew 10s   infinite ease-in-out;
+            border-bottom: 2px solid #C6AB58;
+        }
+    
+        @keyframes changew{
+            00%
+            
+            {
+                background-image: url(Wedding\ memorial.jpg);
+            }
+            
+        }
+        .wedding h2{
+            color: #0B3E73;
+            text-align: center;
+            padding-top: 300px;
+            font-size: 50px;
+        }
+
+        .playroom{
+            height: 600px;
+            position: relative;
+            background-image:url(LOW_Children\ Playroom_Play\ Zone.jpg);
+            background-size:cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            animation: changepl 10s   infinite ease-in-out;
+            border-bottom: 2px solid #C6AB58;
+        }
+    
+        @keyframes changepl{
+            00%
+            
+            {
+                background-image: url(playroom.jpg);
+            }
+            
+        }
+        .playroom h2{
+            color: #0B3E73;
+            text-align: center;
+            padding-top: 300px;
+            font-size: 50px;
+        }
+
+        .parking h2{
+            color: #0B3E73;
+            text-align: center;
+            padding-top: 300px;
+            background-image:url(Parking.jpg) ;
+            background-size:cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 600px;
+            font-size: 50px;
+            border-bottom: 2px solid #C6AB58;
+        }
+        
+
 }
